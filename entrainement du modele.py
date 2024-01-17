@@ -1,4 +1,4 @@
-ef skipgram_model_training(X, Y, vocab_size, emb_size, learning_rate, epochs, batch_size=256, parameters=None, print_cost=True, plot_cost=True):
+def skipgram_model_training(X, Y, vocab_size, emb_size, learning_rate, epochs, batch_size=256, parameters=None, print_cost=True, plot_cost=True):
     """
     X: Input word indices. shape: (1, m)
     Y: One-hot encodeing of output word indices. shape: (vocab_size, m)
